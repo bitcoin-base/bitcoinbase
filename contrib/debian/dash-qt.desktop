@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Bitcoin Base Core
+Comment=Bitcoin Base P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Bitcoin Base peer-to-peer Netzwerk
+Comment[fr]=Bitcoin Base, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bitcoin Base, eşten eşe kriptografik sanal para birimi
+Exec=bitcoinbase-qt %u
+Terminal=false
+Type=Application
+Icon=dash128
+MimeType=x-scheme-handler/dash;
+Categories=Office;Finance;P2P;Network;Qt;
+StartupWMClass=Bitcoinbase-qt

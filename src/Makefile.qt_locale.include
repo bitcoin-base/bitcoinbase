@@ -1,0 +1,22 @@
+QT_TS = \
+  qt/locale/bitcoinbase_ar.ts \
+  qt/locale/bitcoinbase_bg.ts \
+  qt/locale/bitcoinbase_de.ts \
+  qt/locale/bitcoinbase_en.ts \
+  qt/locale/bitcoinbase_es.ts \
+  qt/locale/bitcoinbase_fi.ts \
+  qt/locale/bitcoinbase_fr.ts \
+  qt/locale/bitcoinbase_it.ts \
+  qt/locale/bitcoinbase_ja.ts \
+  qt/locale/bitcoinbase_ko.ts \
+  qt/locale/bitcoinbase_nl.ts \
+  qt/locale/bitcoinbase_pl.ts \
+  qt/locale/bitcoinbase_pt.ts \
+  qt/locale/bitcoinbase_ro.ts \
+  qt/locale/bitcoinbase_ru.ts \
+  qt/locale/bitcoinbase_sk.ts \
+  qt/locale/bitcoinbase_th.ts \
+  qt/locale/bitcoinbase_tr.ts \
+  qt/locale/bitcoinbase_vi.ts \
+  qt/locale/bitcoinbase_zh_CN.ts \
+  qt/locale/bitcoinbase_zh_TW.ts
