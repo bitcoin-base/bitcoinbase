@@ -225,10 +225,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_V24].useEHF = true;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000"); // 0
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000001bdc05634a"); // 11782
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000"); // 0
+        consensus.defaultAssumeValid = uint256S("0x000001b1415435d9526021e93b13fc30a04f6ec8b0882405e5ad8d633d6107b5"); // 11782
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -306,6 +306,9 @@ public:
         checkpointData = {
             {
                     {0, uint256S("0x00000513220bcc3b2b51ab492f68af66b8186740d182595c2520ec280860b106")},
+                    {1500, uint256S("0x000000a786f2b6e0c9f38623efde4969787d56a27686e311aaa3c576ddf34c89")},
+                    {5000, uint256S("0x000000072edde5c2f779daf8215b08dbff0e9338fb42a91724cfe9ec8b33ef00")},
+                    {11782, uint256S("0x000001b1415435d9526021e93b13fc30a04f6ec8b0882405e5ad8d633d6107b5")},
             }
         };
 
@@ -315,9 +318,9 @@ public:
 
         // getchaintxstats 
         chainTxData = ChainTxData{
-                1767744000, // * UNIX timestamp of last known number of transactions 
-                0,   // * total number of transactions between genesis and that timestamp
-                0.001      // * estimated number of transactions per second after that timestamp
+                1777319211, // * UNIX timestamp of last known number of transactions 
+                29806,   // * total number of transactions between genesis and that timestamp
+                0.01384410138064752,      // * estimated number of transactions per second after that timestamp
         };
     }
 };
